@@ -2,7 +2,7 @@ import CarCard from '../components/CarCard'
 
 const getTickets = async () => {
   try {
-    const results = await fetch("http://127.0.0.1:3000/api/Cars", {
+    const results = await fetch(process.env.API_URL + 'Cars', {
       cache: "no-store"
     })
     return results.json()
