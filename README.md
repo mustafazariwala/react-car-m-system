@@ -17,10 +17,13 @@ bun dev
 ```
 
 ## Demo Picture
+
 Home
+[http://localhost:3000/](http://localhost:3000/)
 ![image info](./public/screenshot1.png)
 
 Edit
+[http://localhost:3000/carPage/:id](http://localhost:3000/carPage/:id)
 ![image info](./public/screenshot2.png)
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
