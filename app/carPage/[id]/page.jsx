@@ -3,7 +3,7 @@ import CarForm  from '@/components/CarForm'
 import React from 'react'
 
 const getCarDataById = async (id) => {
-  const res = await fetch(process.env.VERCEL_URL + '/api/' + `Cars/${id}`, {
+  const res = await fetch('https://' + process.env.VERCEL_URL + '/api/' + `Cars/${id}`, {
     cache: "no-store"
   })
   if(!res.ok) {

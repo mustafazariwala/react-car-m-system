@@ -2,7 +2,7 @@ import CarCard from '../components/CarCard'
 
 const getTickets = async () => {
   try {
-    const results = await fetch(process.env.VERCEL_URL + '/api/' + 'Cars', {
+    const results = await fetch('https://' + process.env.VERCEL_URL + '/api/' + 'Cars', {
       cache: "no-store"
     })
     return results.json()
