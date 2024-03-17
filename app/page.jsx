@@ -1,4 +1,4 @@
-import CarCard from './\(components\)/CarCard'
+import CarCard from '@/components/CarCard'
 
 const getTickets = async () => {
   try {
