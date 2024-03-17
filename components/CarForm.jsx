@@ -12,7 +12,7 @@ function CarForm({car}) {
     title: "",
     description: "",
     category: "Hardware Problem",
-    priority: 1,
+    priority: 2,
     progress: 0,
     status: "Not Started",
   };
