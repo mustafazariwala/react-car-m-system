@@ -7,7 +7,7 @@ const DeleteBlock = ({id}) => {
   const router = useRouter()
   const deleteTicket = async () => {
     console.log(id)
-    const res = await fetch(process.env.API_URL `Cars/${id}`, {
+    const res = await fetch(process.env.VERCEL_URL `Cars/${id}`, {
       method: 'DELETE'
     })
     if (res.status === 200) {
