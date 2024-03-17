@@ -1,4 +1,5 @@
-import CarForm from '../../../components/carForm'
+// import CarForm from '../../../components/carForm'
+import CarForm  from '@/components/CarForm'
 import React from 'react'
 
 const getCarDataById = async (id) => {
